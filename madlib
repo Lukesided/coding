@@ -1,0 +1,76 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOtDxyZ3zLM75ti+jW2bDa6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Lukesided/coding/blob/main/madlib\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "pJvOWuav8LgI"
+      },
+      "outputs": [],
+      "source": [
+        "def add(x,y):\n",
+        " return x + y\n",
+        "\n",
+        "\n",
+        "name = input(\"Please input your character's name: \")\n",
+        "subpronoun = input(\"Input your character's subjective pronoun: \")\n",
+        "obpronoun = input(\"Input your character's objective pronoun: \")\n",
+        "pospronoun = input(\"Input your character's possessive pronoun: \")\n",
+        "place1 = input(\"Please input the FIRST place: \")\n",
+        "place2 = input(\"Please input the SECOND PLACE: \")\n",
+        "object1 = input(\"Please input an object, that you hate.\")\n",
+        "print(\"Okay, finished!\")\n",
+        "print(\"Here is your story: \")\n",
+        "print(\"It was a stormy, cold night.\",name,\"was walking in the alleyways when a stranger approached\",obpronoun,\".\"  \"The stranger was friendly, even opting for\", name,\"to purchase some of their wares.\",\n",
+        "name,\"did not know which decision to choose. Eventually,\", subpronoun,\"decided to buy the stranger's wares. Using the last few coins\", subpronoun,\"had,\",subpronoun,\"bought a, or an\",object1,\"which\",name,\n",
+        "\"despised.\", name,\"shouted, 'There is NO way you are getting away with this!'\" \"Then,\", name, \"went to\",pospronoun, place1,\". It seemed confusing. There was NO way that\",subpronoun,\"could get back to that stranger. But,\",subpronoun,\"realised\",subpronoun,\"could go to a\",\n",
+        "place2,\".\",name,\"then got a gang of people to find and raid the stranger. They eventually found the stranger.\",name,\"then confronted the stranger and took all their wares. Then,\",name,\"was unable to be stolen never again.   THE END.\")\n",
+        "print(add(1420,3540))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "ObOnGXgJMF4E"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "h2nZ-XZOLRzY"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
